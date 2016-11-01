@@ -97,7 +97,7 @@ main > p:first-of-type::first-letter {
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
   font-style: normal;
-  margin-right: 1rem;
+  margin: 0 10px 0 -50px;
 }
 
 figure {
@@ -105,21 +105,23 @@ figure {
   width: 300px;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
-  margin: 0;
+  margin: 0 -150px 0 0;
   padding: 6px 0;
 }
 
 figcaption {
   font-size: .875rem;
   font-style: italic;
+
 }
 
 blockquote {
   float: left;
   font-size: 1.5rem;
   width: 300px;
-  margin: 0;
+  margin: 0 0 0 -150px;
   padding: 0;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
+  color: #666;
 }
